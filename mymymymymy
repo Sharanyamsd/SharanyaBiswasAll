@@ -1,0 +1,71 @@
+advance
+my
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Sharanyamsd/sharanyab.git
+cd sharanyab
+npm install
+node index.js
+
+
+
+
+
+
+sagnik
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/imnick48/SD_GH.git
+cd SD_GH
+npm install
+node index.js
+
+
+8>>>>>
+
+git init
+git remote add origin http//:
+git add .
+git commit -m "First Commit"
+git branch -M master
+git push -u origin master
+
+
+git init 
+git clone
+
+
+7>>>>>>>>>>>
+update 
+upgrade
+nginx
+ngi
+../../var/www
+sudo chmod 777 html 
+cd ../../var/www
+sudo chmod 777 html
+
+
+
+
+12>......
+proxy_pass http://localhost:4000;
+ proxy_http_version 1.1; 
+ proxy_set_header Upgrade $http_upgrade;
+ proxy_set_header Connection 'Upgrade';
+ proxy_set_header Host $host;
+ proxy_cache_bypass $http_upgrade;
